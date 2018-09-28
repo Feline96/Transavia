@@ -1,0 +1,122 @@
+body{
+    background-image: url(icon/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font: Verdana,Lucida Console;
+    font-size: 1em;
+}
+
+img.logo {
+    width: 3em;
+    border-radius:
+}
+
+nav {
+    background-color: white;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+a {
+float: left;
+  text-align: center;
+  padding: 0.5em 0.2em;
+  color: #00e064;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+a:hover{
+    color: #28009f;
+}
+
+ul {
+    display: flex;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+li {
+    list-style-type: none
+}
+
+h1 {
+    text-align: center;
+    color: #00e064;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    background-color: white;
+    border-radius: 1em;
+    border-style: none;  
+}
+
+fieldset {
+    border-style: none;
+}
+
+label {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=range]{
+    width: 100%
+}
+
+a.inloggen{
+    width: 30%;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #00e064;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #ff3368;
+    font-family: sans-serif;
+    color: white;
+    padding: 14px 20px;
+    display: inline;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 2px 2px #da004d;
+}
+
+article {
+    background-color: white;
+    display: block;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+
+}
+
+p{
+    font-size: 1em;
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+img.verhaal {
+    border: 0.1em solid //#ff3368;
+    width: 20em;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
